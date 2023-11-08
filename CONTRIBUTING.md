@@ -7,7 +7,7 @@ The file is home to contributing information for Informatics Operations (IO) at 
 **Pride:** We expect lab members to sign their code, which means that source code contributions are attributable to an individual's account on GitHub.
 To quote from _The Pragmatic Programmer_:
 
-> Craftsmen of an earlier age were proud to sign their work.
+> [Craftspeople] of an earlier age were proud to sign their work.
 > You should be, too…
 > People should see your name on a piece of code and expect it to be solid, well written, tested, and documented.
 
