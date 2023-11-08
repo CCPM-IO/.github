@@ -1,6 +1,14 @@
 # Contributing
 
-The file is home to contributing information for Informatics Operations (IO) at the Colorado Center for Personalized Medicine (CCPM), University of Colorado Anschutz Medical Campus.
+The file is home to contribution documentation for Informatics Operations (IO) at the Colorado Center for Personalized Medicine (CCPM), University of Colorado Anschutz Medical Campus.
+
+## Code of Conduct
+
+We follow a code of conduct which may be found here: [CODE_OF_CONDUCT.md](https://github.com/CCPM-TIS/.github/CODE_OF_CONDUCT.md).
+
+## Security
+
+We follow security procedures which may be found here: [SECURITY.md](https://github.com/CCPM-TIS/.github/SECURITY.md)
 
 ## Source Code, Data, and Reproducibility
 
