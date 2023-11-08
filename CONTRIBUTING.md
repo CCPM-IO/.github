@@ -42,7 +42,7 @@ Feel free to ask for guidance if you are uncomfortable with the process.
 1. Once at least one lab member has approved your pull request, you or a reviewer may merge your pull request.
    - There are sometimes exceptions to this policy where, in addition to the above rules, an IO director must also approve the pull request (for example, with the `.github` repository).
 
-### Composition of Pull Requests
+#### Composition of Pull Requests
 
 Each pull request may contain one or more changes.
 In keeping with good source control practice, each pull request should include all commits necessary to complete a particular fix or update.
@@ -51,13 +51,13 @@ Keeping the pull request focused to one area makes it easier for your reviewers 
 We recommend keeping pull requests as small as feasible to address fixes or new capabilities.
 Larger pull requests involving many lines changed and/or very complex changes may be a sign that further granularity (and smaller changes) would be beneficial.
 
-### Reviewing Pull Requests
+#### Reviewing Pull Requests
 
 We expect that lab members will participate in requested review of pull requests.
 See the checklist below on how to facilitate code review.
 As a reviewer, you are responsible for making sure that all checklist guidelines are followed.
 
-## Code Review Checklist
+### Code Review Checklist
 
 - [ ] **Pride:** We expect lab members to sign their code via commits attributable to a user.
   Each commit must be attributed to a recognized user.
