@@ -27,6 +27,19 @@ We expect repository management and code maintenance to occur through our [`CCPM
 We discourage direct commits to the default branch (for example, `main` or `master`) for all repositories.
 Changes to default repository branches occur through ["feature branches"](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) and [GitHub pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with related code review and merges after  approval.
 
+### Development
+
+#### Linting
+
+A [linter](<https://en.wikipedia.org/wiki/Lint_(software)>) is a code analysis tool designed to analyze code and flag for programming errors, bugs and stylistic errors.
+These tools allow one to drastically improve their productivity when writing code for their research projects as stylistic errors and programming errors will automatically be covered through this setup.
+
+##### Pre-commit
+
+We recommend the use of pre-commit with our repositories.
+Using pre-commit allows you to setup a "git hook" which can check for errors prior to committing changes with git.
+See [pre-commit installation documentation](https://pre-commit.com/#install) and individual repositories for their unique configurations and potential linting expectations.
+
 ### Updates to Code
 
 We practice code review on all changes to repositories.
