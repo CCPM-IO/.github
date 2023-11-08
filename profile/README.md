@@ -1,4 +1,3 @@
-
 <img src="https://raw.githubusercontent.com/ccpm-tis/.github/profile/images/cu-anschutz-medical-campus.svg?raw=true">
 
 # Welcome to CCPM-TIS!
