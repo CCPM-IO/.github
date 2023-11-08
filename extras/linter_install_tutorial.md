@@ -3,7 +3,7 @@
 ## About
 
 This section describes how to set up running a liner uploading code onto a GitHub repository (git commit ... -> git push).
-A [linter](https://en.wikipedia.org/wiki/Lint_(software)) is a code analysis tool designed to analyze code and flag for programming errors, bugs and stylistic errors.
+A [linter](<https://en.wikipedia.org/wiki/Lint_(software)>) is a code analysis tool designed to analyze code and flag for programming errors, bugs and stylistic errors.
 This tool allows one to drastically improve their productivity when writing code for their research projects as stylistic errors and programming errors will automatically be covered through this set-up.
 Disclaimer: The following instructions only work for python code as R doesn't have a working linter. (Subject to change if new information were to come out on this fact.)
 
@@ -13,26 +13,27 @@ Make sure [conda](https://docs.conda.io/projects/conda/en/latest/user-guide/inst
 This pipeline is designed to run on python >=3.5.
 
 This setup will also use the following packages (versions can be changed as needed):
+
 1. pre-commit==2.9.3
-2. black==20.8b1 
-3. jupytext==1.9.1
-4. flake8==3.8.4
+1. black==20.8b1
+1. jupytext==1.9.1
+1. flake8==3.8.4
 
 ## Installation Instructions
 
-1. Set up your python environment to use python>=3.5 
-2. Call ``pip install pre-commit==2.9.3``
-3. call ``pip install black==22.3.0``
-4. Create a file with the extension .pre-commit-config.yaml and fill in with lines of code reproduced in the [Configuration Files](#Pre-commit) section
-5. Create a file with the extension .flake8 and fill in with lines of code reproduced in the [Configuration Files](#Flake8) section
-6. Create a file with the extension .toml and fill in with lines of code reproduced in the [Configuration Files](#Black) section
-7. Then call command ``pre-commit install`` to install the pipeline to run after the ``git commit`` command is called.
-8. Now the pipeline is installed, and you can test it by calling ``pre-commit``.
-9. Now you can proceed with normal code development and GitHub processes
-10. When you call `git commit`, you will see a few checks being at the start of the committing process.
-11. Checkpoints will fail as files are modified or flake8 errors persist
-12. Review that changes files are to one's liking or manually make changes
-13. Lastly, call ``git add`` on the changed files then call the same ``git commit`` command again.
+1. Set up your python environment to use python>=3.5
+1. Call `pip install pre-commit==2.9.3`
+1. call `pip install black==22.3.0`
+1. Create a file with the extension .pre-commit-config.yaml and fill in with lines of code reproduced in the [Configuration Files](#Pre-commit) section
+1. Create a file with the extension .flake8 and fill in with lines of code reproduced in the [Configuration Files](#Flake8) section
+1. Create a file with the extension .toml and fill in with lines of code reproduced in the [Configuration Files](#Black) section
+1. Then call command `pre-commit install` to install the pipeline to run after the `git commit` command is called.
+1. Now the pipeline is installed, and you can test it by calling `pre-commit`.
+1. Now you can proceed with normal code development and GitHub processes
+1. When you call `git commit`, you will see a few checks being at the start of the committing process.
+1. Checkpoints will fail as files are modified or flake8 errors persist
+1. Review that changes files are to one's liking or manually make changes
+1. Lastly, call `git add` on the changed files then call the same `git commit` command again.
 
 ## Warnings
 
@@ -40,7 +41,7 @@ This pipeline is designed to run black on jupyter notebooks and does not run on 
 The flake8 step will complain about non-formatted python scripts as no changes would have been made at that point.
 Simply run the command `black <python script>` and re-add the changed file.
 
-## Configuration Files 
+## Configuration Files
 
 ### Pre-commit
 
@@ -92,8 +93,8 @@ repos:
 ```
 
 Depending on repository organization some may want to have files be in specific folders rather than in a centralized way.
-Currently, there isn't a great way to accomplish this feature without manually calling ``jupytext --set-formats 'notebook_folder_path//ipynb,script_folder_path//py' notebook_folder_path/<notebook name>.ipynb``.
-Then, remove the ``--set-formats, 'notebook_folder_path//ipynb, script_folder_path//py'`` part from the config file and run pre-commit like normal.
+Currently, there isn't a great way to accomplish this feature without manually calling `jupytext --set-formats 'notebook_folder_path//ipynb,script_folder_path//py' notebook_folder_path/<notebook name>.ipynb`.
+Then, remove the `--set-formats, 'notebook_folder_path//ipynb, script_folder_path//py'` part from the config file and run pre-commit like normal.
 
 ### Flake8
 

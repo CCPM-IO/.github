@@ -8,8 +8,8 @@ The file is home to contributing information for Informatics Operations (IO) at 
 To quote from _The Pragmatic Programmer_:
 
 > Craftsmen of an earlier age were proud to sign their work.
-You should be, too…
-People should see your name on a piece of code and expect it to be solid, well written, tested, and documented.
+> You should be, too…
+> People should see your name on a piece of code and expect it to be solid, well written, tested, and documented.
 
 While some code will be proof-of-concept code, it should be of a form that inspires confidence.
 
@@ -27,10 +27,10 @@ Feel free to ask for guidance if you are uncomfortable with the process.
 **We will revoke write access for failing to adhere to these rules.**
 
 1. Make changes to your code and commit them in your own repository first.
-2. Create a pull request into the repository owned by CCPM-TIS.
-3. Name potential reviewers for your pull request.
-4. Once at least one lab member has approved your pull request, you or a reviewer may merge your pull request.
-The only exception to this policy is this repository ("IO") where, in addition to the above rules, IO director must also approve the pull request.
+1. Create a pull request into the repository owned by CCPM-TIS.
+1. Name potential reviewers for your pull request.
+1. Once at least one lab member has approved your pull request, you or a reviewer may merge your pull request.
+   The only exception to this policy is this repository ("IO") where, in addition to the above rules, IO director must also approve the pull request.
 
 **Composition of Pull Requests:** Each pull request may contain one or more changesets.
 In keeping with good source control practice, each changeset or commit should contain _all_ changes necessary for a particular fix or update.
