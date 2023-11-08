@@ -14,7 +14,7 @@ We follow security procedures which may be found here: [SECURITY.md](https://git
 
 ### Pride
 
-We expect lab members to sign their code, which means that source code contributions are attributable to an individual's account on GitHub.
+We expect team members to sign their code, which means that source code contributions are attributable to an individual's account on GitHub.
 To quote from [_The Pragmatic Programmer_](https://www.oreilly.com/library/view/the-pragmatic-programmer/9780135956977/):
 
 > \[Craftspeople\] of an earlier age were proud to sign their work.
@@ -26,7 +26,7 @@ While some code will be proof-of-concept code, it should be of a form that inspi
 ### Programming Languages
 
 We most often write code for our analyses in Python or R.
-This allows everyone in the lab to know two languages and understand analytical code.
+This allows everyone in the organization to know two languages and understand analytical code.
 
 ### Version Control Services
 
@@ -60,7 +60,7 @@ Feel free to ask for guidance if you are uncomfortable with the process.
 1. Make changes to your code and commit them in a non-default branch.
 1. Create a pull request into the repository owned by CCPM-TIS.
 1. Select potential reviewers for your pull request.
-1. Once at least one lab member has approved your pull request, you or a reviewer may merge your pull request.
+1. Once at least one organization member has approved your pull request, you or a reviewer may merge your pull request.
    - There are sometimes exceptions to this policy where, in addition to the above rules, an IO director must also approve the pull request (for example, with the `.github` repository).
 
 #### Composition of Pull Requests
@@ -74,13 +74,13 @@ Larger pull requests involving many lines changed and/or very complex changes ma
 
 #### Reviewing Pull Requests
 
-We expect that lab members will participate in requested review of pull requests.
+We expect that team members will participate in requested review of pull requests.
 See the checklist below on how to facilitate code review.
 As a reviewer, you are responsible for making sure that all checklist guidelines are followed.
 
 ### Code Review Checklist
 
-- [ ] **Pride:** We expect lab members to sign their code via commits attributable to a user.
+- [ ] **Pride:** We expect team members to sign their code via commits attributable to a user.
   Each commit must be attributed to a recognized user.
 
 - [ ] **Licensing:** A LICENSE file is in the root of the repository.
