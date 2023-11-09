@@ -58,7 +58,7 @@ Feel free to ask for guidance if you are uncomfortable with the process.
 **⚠️ We will revoke write access for failing to adhere to these rules.**
 
 1. Make changes to your code and commit them in a non-default branch.
-1. Create a pull request into the repository owned by CCPM-TIS.
+1. Create a pull request into the repository owned by CCPM I/O.
 1. Select potential reviewers for your pull request.
 1. Once at least one organization member has approved your pull request, you or a reviewer may merge your pull request.
    - There are sometimes exceptions to this policy where, in addition to the above rules, an IO director must also approve the pull request (for example, with the `.github` repository).
