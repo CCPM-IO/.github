@@ -1,14 +1,14 @@
 # Contributing
 
-The file is home to contribution documentation for Informatics Operations (IO) at the Colorado Center for Personalized Medicine (CCPM), University of Colorado Anschutz Medical Campus.
+This file is home to contribution documentation for Informatics Operations (I/O) at the Colorado Center for Personalized Medicine (CCPM), University of Colorado Anschutz Medical Campus.
 
 ## Code of Conduct
 
-We follow a code of conduct which may be found here: [CODE_OF_CONDUCT.md](https://github.com/CCPM-TIS/.github/CODE_OF_CONDUCT.md).
+We follow a code of conduct which may be found here: [CODE_OF_CONDUCT.md](https://github.com/CCPM-IO/.github/CODE_OF_CONDUCT.md).
 
 ## Security
 
-We follow security procedures which may be found here: [SECURITY.md](https://github.com/CCPM-TIS/.github/SECURITY.md)
+We follow security procedures which may be found here: [SECURITY.md](https://github.com/CCPM-IO/.github/SECURITY.md)
 
 ## Source Code, Data, and Reproducibility
 
@@ -31,7 +31,7 @@ This allows everyone in the organization to know two languages and understand an
 ### Version Control Services
 
 Our primary version control service is GitHub.
-We expect repository management and code maintenance to occur through our [`CCPM-TIS` GitHub organization](https://github.com/CCPM-TIS).
+We expect repository management and code maintenance to occur through our [`CCPM-IO` GitHub organization](https://github.com/CCPM-IO).
 We discourage direct commits to the default branch (for example, `main` or `master`) for all repositories.
 Changes to default repository branches occur through ["feature branches"](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) and [GitHub pull requests](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request) with related code review and merges after  approval.
 

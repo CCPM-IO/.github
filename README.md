@@ -1,6 +1,6 @@
-# CCPM-TIS .github
+# CCPM-IO .github
 
-A special GitHub repository for setting the CCPM-TIS organization profile and default community health files.
+A special GitHub repository for setting the Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O) organization profile and default community health files.
 
 See the following documentation for more details:
 

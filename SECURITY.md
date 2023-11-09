@@ -1,6 +1,6 @@
 # Security
 
-The Colorado Center for Personalized Medicine - Translational Informatics Services (CCPM TIS) team and community take security bugs and vulnerabilities seriously.
+The Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O) team and community take security bugs and vulnerabilities seriously.
 We appreciate your efforts to responsibly disclose and, where necessary, remediate your findings when it comes to security issues.
 
 General security incident procedures for projects found here are managed through the [University of Colorado's Office of Information Security incident report process](https://www.cu.edu/security/reporting-incident).
