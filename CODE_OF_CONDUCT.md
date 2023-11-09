@@ -1,6 +1,6 @@
 # Code of Conduct
 
-This file outlines the code of conduct expectations for Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O) projects.
+This file outlines the code of conduct expectations for the Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O) projects.
 Content here expands upon official [University of Colorado Anschutz (CU Anschutz) Code of Conduct policy](https://www.cu.edu/ope/aps/2027).
 The aforementioned CU Anschutz policy materials may override any content found below.
 

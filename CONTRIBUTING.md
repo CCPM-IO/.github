@@ -1,6 +1,6 @@
 # Contributing
 
-This file is home to contribution documentation for Informatics Operations (I/O) at the Colorado Center for Personalized Medicine (CCPM), University of Colorado Anschutz Medical Campus.
+This file is home to contribution documentation for the Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O) at the University of Colorado Anschutz Medical Campus.
 
 ## Code of Conduct
 
