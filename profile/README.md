@@ -2,8 +2,6 @@
 
 # Welcome to CCPM-IO!
 
-The [Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O)](https://medschool.cuanschutz.edu/cobiobank/investigators-industry-partners/tis) at the University of Colorado Anschutz Medical Campus collaborates with industry partners to accelerate research and advance personalized medicine.
-These partnerships allow CCPM and biobank participants to contribute to scientific discoveries and research conducted around the world.
-Any data contributed through these partnerships is de-identified so that no personal or identifying information on biobank participants is shared.
+The [Colorado Center for Personalized Medicine - Informatics Operations (CCPM I/O)](https://medschool.cuanschutz.edu/ccpm/infrastructure) at the University of Colorado Anschutz Medical Campus aims to deliver reliable software and data to support CCPM clinical and research efforts while overseeing the development and implementation of informatics pipelines that process raw genotyping data. We also ensure that those pipelines accurately and reproducibly process genetic data for delivery into patients’ records for clinical care.
 
 This GitHub Organization includes our software work towards the goals mentioned above.
