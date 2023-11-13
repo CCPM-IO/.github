@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/ccpm-io/.github/profile/images/cu-anschutz-medical-campus.svg?raw=true">
+<img src="https://raw.githubusercontent.com/CCPM-IO/.github/main/profile/images/cu-anschutz-medical-campus.svg?raw=true">
 
 # Welcome to CCPM-IO!
 
