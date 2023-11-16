@@ -81,6 +81,44 @@ Submit the report in a direct message to the director via slack.
 
 ## Initial onboarding
 
+### New employee orientation
+
+All new hires must complete their Online New Employee Orientation in Canvas within 31 days of their start date. 
+
+The Canvas course has several modules for you to complete and is self-paced. 
+
+We estimate it will take approximately 3 hours to complete the course.
+
+**Accessing Canvas from the Course Invitation Email**
+
+Once you are hired, you should receive an email from Canvas with a course invitation (pictured below).
+
+<img src="https://raw.githubusercontent.com/ccpm-io/.github/profile/images/NEO_onboarding.jpeg?raw=true">
+
+Once you receive this invite from Canvas, you will need to accept the course invitation by clicking the “Get Started” button. 
+
+Your role in this Canvas course will be listed as student.
+
+**Accessing Canvas without the Course Invitation Email**
+
+If you haven’t received the invitation from Canvas, you can also access the course directly through this [link](https://passport.ucdenver.edu/servicelist.php).
+
+You will login with your university credentials and select Canvas.
+
+In your Canvas dashboard, there will be a tile listed as “Online New Employee Orientation”.  Click the tile to enter the course.
+
+Note: Staff and Faculty should already have a Canvas Account created but if you do not have a Canvas account already or are encountering issues, please reach out to the [Help Desk with Office of Information Technology](https://www.ucdenver.edu/offices/office-of-information-technology).
+
+**Required CU trainings**
+
+The following [Skillsoft](https://universityofcolorado.skillport.com/skillportfe/main.action#whatshappening) trainings must be completed within first 30 days of hire:
+
+1) [Americans with Disabilities Act](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00057_0001)
+2) [Discrimination and Sexual Misconduct](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00067_0001)
+3) [Fiscal Code of Ethics](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_f00001_0001)
+4) [HIPAA Regulations](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_a00020_0001)
+5) [Information Security and Privacy Awareness](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00063_0001)
+
 **Required HIPAA trainings:**
 CCPM clinical pipelines will require access to private health information (PHI). I/O members will be expected to do the following prior to getting access to CCPM data.
 
