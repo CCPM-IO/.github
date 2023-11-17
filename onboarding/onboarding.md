@@ -93,7 +93,7 @@ We estimate it will take approximately 3 hours to complete the course.
 
 Once you are hired, you should receive an email from Canvas with a course invitation (pictured below).
 
-<img src="https://raw.githubusercontent.com/ccpm-io/.github/profile/images/NEO_onboarding.jpeg?raw=true">
+![NEO_onboarding](https://github.com/nrafaels/.github/assets/7504529/f28cccac-fba7-4795-8b87-55084bedcdc8)
 
 Once you receive this invite from Canvas, you will need to accept the course invitation by clicking the “Get Started” button. 
 
