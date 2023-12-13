@@ -12,3 +12,7 @@ Besides the above, we require the following for projects:
 
 - Private keys, passwords, and credentials must never be committed into source control.
 - Data checked into source control must not include sensitive or personally identifiable information (PII).
+
+### Github Copilot
+
+CCPM I/O members are encouraged to use Github Copilot to help write code. However, this implies that code from a repository that deploys Github Copilot will be shared with the public internet. Thus, PII and any proprietary code cannot be included in any repository that uses Github Copilot. In addition, it is strongly discouraged to include file paths in your code. If you have doubts about what is considered proprietary, please consult with the I/O director. 
