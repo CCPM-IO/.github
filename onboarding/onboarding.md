@@ -25,8 +25,8 @@ Failure to abide by this guideline will result in missing whatever the opportuni
 **Authorship:** I/O follows the [ICMJE's Uniform Requirements for Manuscripts Submitted to Biomedical Journals](https://www.icmje.org/recommendations/browse/roles-and-responsibilities/defining-the-role-of-authors-and-contributors.html) defintions of the roles of authors and contributors to our manuscripts.
 
 **Travel and professional development:** We encourage I/O members to pursue professional development.
-- I/O members are eligible to apply to attend [research conferences](https://olucdenver.sharepoint.com/:b:/r/sites/CCPM-Team/Shared%20Documents/General/Travel%20%26%20Professional%20Development/CCPM-sponsored%20research%20travel-FINAL-eff.%201.27.23.pdf?csf=1&web=1&e=ODuiUf), pending available funding.
-- I/O members are also eligible to apply to seek [professional development](https://olucdenver.sharepoint.com/:b:/r/sites/CCPM-Team/Shared%20Documents/General/Travel%20%26%20Professional%20Development/CCPM%20staff%20professional%20development%20funds%20policy.pdf?csf=1&web=1&e=crDolA).
+- I/O members are eligible to apply to attend [research conferences]([https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20Travel%20pre%2Dapproval%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies]), pending available funding.
+- I/O members are also eligible to apply to seek [professional development](https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20professional%20development%20funds%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies).
 
 # Communication
 
@@ -37,7 +37,7 @@ If you plan on sending an e-mail to someone within the lab, try a slack message 
 This helps to keep communications in one place, and the director commits to respond to slacks (not necessarily immediately, but the same guarantee is not made for e-mail).
 
 **Projects:** By the nature of our work, I/O members will often have the opportunity to participate in projects managed via private or publicly accessible source code repositories.
-In these cases, I/O members are expected to: follow the code of conduct; expect that private repositories will be world accessible; and to communicate via the project-specific medium
+In these cases, I/O members are expected to: follow the code of conduct; expect that private repositories will be world accessible; and to communicate via the project-specific medium.
 For example, when one I/O member reports an issue on a project on GitHub, it would not be appropriate for another lab member to reply "I'll drop by your desk and show you how to solve that."
 It would be most appropriate for the conversation to take place on GitHub issues.
 
@@ -138,13 +138,12 @@ I/O uses Eureka to develop, test, deploy, and maintain clinical pipelines.
 
 - Once HIPAA trainings are complete, the I/O director will add you to the CCPM-IO protocol, and then request access to the following Eureka servers
 
-+ [Eureka Google Cloud high performance computing (HPC) general purpose](https://hdchpcprodtis1-hpc-1.hdcuser.org/)
-+ [Eureka Google Cloud high performance computing (HPC) clinical pipelines](https://hdchpcprodtis1-hpc-1.hdcuser.org/)
-+ [Eureka RStudio virtual machine (VM) (useful for querying electronic health records)](https://hdcekaprodtis1-r-app-1.hdcuser.org/)
-+ [Eureka virtual machine (VM)](https://hdcekaprodtis1-nx-app-1.hdcuser.org/)
++ [Eureka Google Cloud high performance computing (HPC) general purpose](https://hdcekaprodio1-app-1.hdcuser.org/)
++ [Eureka Google Cloud high performance computing (HPC) clinical pipelines](https://hdcekaprodcart2-app-1.hdcuser.org/)
++ [Eureka Google Cloud clinical pipeline web applications](https://hdcekaprodio2-app-1.hdcuser.org/)
 
 - You will then be asked to complete [Compass staff training](https://olucdenver.sharepoint.com/compass/team/SitePages/Compass-Staff-Training-Dashboard.aspx?CT=1699638580421&OR=OWA-NT&CID=d9447a09-20ff-7b7e-eb2e-ec606c132b00).
-- Health data compass provides instructions to get started for [Eureka HPC](https://www.healthdatacompass.org/cloud-analytics-infrastructure/using-eureka-hpc) and [Eureka VM](https://www.healthdatacompass.org/cloud-analytics-infrastructure/using-eureka-app-vm) services. 
+- Health data compass provides instructions to get started for [Eureka](https://www.healthdatacompass.org/eureka-cloud-analytics/eureka-user-guide)
 
 **Access to Alpine:**
 [Alpine](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) is a high performance computing (HPC) cluster maintained by University of Colorado Boulder which CCPM I/O uses in partnership with the CCPM-Research team to manage de-identified CCPM data for research pipelines.
@@ -158,6 +157,12 @@ To get access to Alpine and the [petalibrary](https://curc.readthedocs.io/en/lat
 The [CCPM-Biobank server](pcifs334.ucdenver.pvt/biobank$) contains data generated by the CCPM-Biobank which must get transferred to Eureka.
 
 - Once you are added to CCPM-IO protocol, the director will make a request to add you to the CCPM-Biobank server.
+
+**Access to DNANexus:**
+[DNANexus](https://www.dnanexus.com) is a Platform as a Service (PaaS) vendor that stores original whole exome sequencing (WES) data from Regeneron Genotyping Center (RGC) as well as one of the tools for clinical Return of Results (RoR) as of January, 2025. 
+
+1) Create a DNANexus [account](https://platform.dnanexus.com/register).
+2) Once you are added to CCPM-IO protocol, the director will add you to associated CCPM projects in DNANexus.
 
 
 
