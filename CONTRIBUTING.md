@@ -23,6 +23,35 @@ To quote from [_The Pragmatic Programmer_](https://www.oreilly.com/library/view/
 
 While some code will be proof-of-concept code, it should be of a form that inspires confidence.
 
+### Data Pipelines
+
+For data pipelines, particularly those utilizing Nextflow, we adhere to structured and reproducible coding practices as recommended by [nf-core guidelines](https://nf-co.re/docs/guidelines/pipelines/overview). Our Nextflow pipelines are expected to align with these standards to ensure consistency, maintainability, and reproducibility across our projects.
+
+#### Nextflow and nf-core Guidelines
+
+- **File Structure:** We adhere to the nf-core guidelines for file structure to ensure our pipelines are consistent and maintainable.
+This includes:
+  - `main.nf`: Contains the primary workflow logic.
+  - `nextflow.config`: Houses all configuration settings.
+  - `nextflow_schema.json`: Describes and validates settings in `nextflow.config`.
+  - `workflows/`: Contains subworkflows.
+  - `bin/`: Stores executable scripts.
+  - `docs/`: Includes documentation for the pipeline.
+  - `tests/`: Contains test files and configurations for pipeline testing.
+
+- **Linting:** Consistency and quality are enforced through nf-core linting processes, which must be passed for all Nextflow pipelines.
+Linting helps ensure that our pipelines meet the high standards set by nf-core for syntax and best practices.
+
+- **Documentation:** Comprehensive documentation is crucial.
+All pipelines should include clear, concise README files, developer comments in the code, and usage instructions.
+
+- **Testing:** Implement robust testing for all components of the pipeline.
+This includes using unit tests and end-to-end tests for the pipelines.
+
+- **Dependency Management:** Use Conda, Docker, or Singularity to manage dependencies, ensuring that the pipeline environment is reproducible and consistent across various computing environments.  
+
+- **Pipeline Updates:** Regular updates and maintenance of the pipeline are required to incorporate improvements, dependency updates, and adaptations to new nf-core versions or Nextflow releases.  
+
 ### Programming Languages
 
 We most often write code for our analyses in Python or R.
