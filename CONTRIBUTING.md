@@ -25,7 +25,8 @@ While some code will be proof-of-concept code, it should be of a form that inspi
 
 ### Data Pipelines
 
-For data pipelines, particularly those utilizing Nextflow, we adhere to structured and reproducible coding practices as recommended by [nf-core guidelines](https://nf-co.re/docs/guidelines/pipelines/overview). Our Nextflow pipelines are expected to align with these standards to ensure consistency, maintainability, and reproducibility across our projects.
+For data pipelines, particularly those utilizing Nextflow, we adhere to structured and reproducible coding practices as recommended by [nf-core guidelines](https://nf-co.re/docs/guidelines/pipelines/overview). 
+Our Nextflow pipelines are expected to align with these standards to ensure consistency, maintainability, and reproducibility across our projects.
 
 #### Nextflow and nf-core Guidelines
 
