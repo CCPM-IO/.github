@@ -49,7 +49,7 @@ It would be most appropriate for the conversation to take place on GitHub issues
 ## Meetings
 
 **Lab Meetings:**
-- Lab meetings are scheduled for one hour, 10:00 AM on Tuesdays. All members of I/O are expected to attend if possible. Meetings are expected to be a supportive environment for learning, constructive criticism, help, and scientific discussions. 
+- Lab meetings are scheduled for one hour, 1:00 PM on Mondays. All members of I/O are expected to attend if possible. Meetings are expected to be a supportive environment for learning, constructive criticism, help, and scientific discussions. 
 
 **Additional Meetings:**
 1. A weekly meeting at 1:00 PM MT Tuesday afternoon with the Biobank team to present I/O updates and receive feedback to improve I/O pipelines.
