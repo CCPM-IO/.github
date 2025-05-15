@@ -26,7 +26,7 @@ Failure to abide by this guideline will result in missing whatever the opportuni
 
 **Travel and professional development:** We encourage I/O members to pursue professional development.
 - I/O members are eligible to apply to attend [research conferences]([https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20Travel%20pre%2Dapproval%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies]), pending available funding.
-- I/O members are also eligible to apply to seek [professional development](https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20professional%20development%20funds%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies).
+- I/O members are also eligible to apply to seek [professional development]([https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20professional%20development%20funds%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies)](https://olucdenver.sharepoint.com/:b:/r/sites/CCPM-Team/Shared%20Documents/General/CCPM%20Policies/CCPM%20staff%20professional%20development%20funds%20policy%2009.2024.pdf?csf=1&web=1&e=IQjZgD]).
 
 # Communication
 
