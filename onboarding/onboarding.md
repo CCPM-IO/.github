@@ -111,13 +111,13 @@ Note: Staff and Faculty should already have a Canvas Account created but if you 
 
 **Required CU trainings**
 
-The following [Skillsoft](https://universityofcolorado.skillport.com/skillportfe/main.action#whatshappening) trainings must be completed within first 30 days of hire:
+The following [Precipio](https://www.cuanschutz.edu/offices/human-resources/learning-development/required-training) trainings must be completed within first 30 days of hire:
 
-1) [Americans with Disabilities Act](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00057_0001)
-2) [Discrimination and Sexual Misconduct](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00067_0001)
-3) [Fiscal Code of Ethics](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_f00001_0001)
-4) [HIPAA Regulations](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_a00020_0001)
-5) [Information Security and Privacy Awareness](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00063_0001)
+1) [Americans with Disabilities Act](https://universityofcolorado.percipio.com/linked-contents/760b6ed2-dae6-4fdf-8b47-d6c631312c74/landing?sharelink=Nx6zq-w55)
+2) [Discrimination and Sexual Misconduct](https://universityofcolorado.percipio.com/linked-contents/2fc85509-9002-45a2-81d3-3d3b3491ebe1/landing?sharelink=JCp6EcW76)
+3) [Fiscal Code of Ethics](https://universityofcolorado.percipio.com/linked-contents/34255cab-e9d8-4689-89cb-0555cf98dae5/landing?sharelink=VR_a7qRJlj)
+4) [HIPAA Regulations](https://universityofcolorado.percipio.com/linked-contents/6dbc91bb-3f1e-499a-942d-045530d33ae1/landing?sharelink=5ImhuR8RU)
+5) [Information Security and Privacy Awareness](https://universityofcolorado.percipio.com/linked-contents/a5934ada-2c6e-4f22-a336-177c41a72ad5/landing?sharelink=x8rr2Jant)
 
 **Required HIPAA trainings:**
 CCPM clinical pipelines will require access to private health information (PHI). I/O members will be expected to do the following prior to getting access to CCPM data.
