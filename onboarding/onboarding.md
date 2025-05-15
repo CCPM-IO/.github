@@ -164,6 +164,24 @@ The [CCPM-Biobank server](pcifs334.ucdenver.pvt/biobank$) contains data generate
 1) Create a DNANexus [account](https://platform.dnanexus.com/register).
 2) Once you are added to CCPM-IO protocol, the director will add you to associated CCPM projects in DNANexus.
 
+**Access to Google buckets outside Eureka**
+I/O also makes use of Google buckets outside of Eureka for projects with de-ID data to aid in continuous integration and transfer of large data to/from Alpine. 
+
+- Once you are added to CCPM-IO protocol, the director will provide access for the following Google projects:
+
+1) gs://ccpm_tis/ (transfers between Eureka and this bucket will use your Eureka account. Transfers between Alpine and this bucket require a non-Eureka account.
+2) ccpm.io.service (facilitates unit testing between github and Google cloud replicating clinical production environments).
+
+**Access to Colorado Biobank Portal**
+I/O maintains the Colorado Biobank Portal for investigators to query GWAS results for ~1600 phenotypes (phecodes).
+
+- Apply for [access](https://ucdenverdata.formstack.com/forms/cbe_user_signup_ccpm).
+
+**Access to service email account**
+I/O also uses a service account to collect emails from github (issues, pull requests, etc.) as well as inquiries from the [Colorado Biobank Portal](http://hdc-sandbox-bioengine.uw.r.appspot.com/)
+
+- Once you are added to CCPM-IO protocol, the director will provide access to ccpm.io@cuanschutz.edu.
+
 
 
 
