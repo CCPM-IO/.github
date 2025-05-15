@@ -150,7 +150,7 @@ I/O uses Eureka to develop, test, deploy, and maintain clinical pipelines.
 
 To get access to Alpine and the [petalibrary](https://curc.readthedocs.io/en/latest/storage/petalibrary/index.html), do the following:
 
-1) Apply for [access](https://curc.readthedocs.io/en/latest/access/amc-access.html) to Alpine.
+1) Apply for [access](https://ucdenverdata.formstack.com/forms/alpine_eua_and_intake) to Alpine.
 2) Contact [Jonathan Shortt](jonathan.shortt@cuanschutz.edu) to get access to CCPM instance of petalibrary.
 
 **Access to Biobank server:**
