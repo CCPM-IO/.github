@@ -133,7 +133,7 @@ CCPM clinical pipelines will require access to private health information (PHI).
 3. Upload a PDF copy of CV to [eRA(InfoEd)](https://era.cu.edu/login.asp) (under ‘My Profile’ (upper left), click ‘Biosketch’ under the Biography side tab, and then click ‘Add’ in the upper right). 
 
 **Access to Eureka:**
-[Eureka](https://www.healthdatacompass.org/cloud-analytics-infrastructure) is an analytic infrastructure service provided by Health Data Compass to quickly provision virtual machines in the Google Cloud for Compass users that are HIPAA compliant and scalable with many analytic capabilities.
+[Eureka](https://research.cuanschutz.edu/healthdatacompass/home/eureka-cloud-analytics) is an analytic infrastructure service provided by Health Data Compass to quickly provision virtual machines in the Google Cloud for Compass users that are HIPAA compliant and scalable with many analytic capabilities.
 I/O uses Eureka to develop, test, deploy, and maintain clinical pipelines.
 
 - Once HIPAA trainings are complete, the I/O director will add you to the CCPM-IO protocol, and then request access to the following Eureka servers
@@ -143,7 +143,7 @@ I/O uses Eureka to develop, test, deploy, and maintain clinical pipelines.
 + [Eureka Google Cloud clinical pipeline web applications](https://hdcekaprodio2-app-1.hdcuser.org/)
 
 - You will then be asked to complete [Compass staff training](https://olucdenver.sharepoint.com/compass/team/SitePages/Compass-Staff-Training-Dashboard.aspx?CT=1699638580421&OR=OWA-NT&CID=d9447a09-20ff-7b7e-eb2e-ec606c132b00).
-- Health data compass provides instructions to get started for [Eureka](https://www.healthdatacompass.org/eureka-cloud-analytics/eureka-user-guide)
+- Health data compass provides instructions to get started for [Eureka](https://olucdenver.sharepoint.com/:w:/g/compass/leafbeta/ES-UlTv6AJZBpWOYS_oStG4BOPsqC5FMobwg-KDu0FpmUA?e=Msdkhs)
 
 **Access to Alpine:**
 [Alpine](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) is a high performance computing (HPC) cluster maintained by University of Colorado Boulder which CCPM I/O uses in partnership with the CCPM-Research team to manage de-identified CCPM data for research pipelines.
