@@ -26,7 +26,7 @@ Failure to abide by this guideline will result in missing whatever the opportuni
 
 **Travel and professional development:** We encourage I/O members to pursue professional development.
 - I/O members are eligible to apply to attend [research conferences]([https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20Travel%20pre%2Dapproval%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies]), pending available funding.
-- I/O members are also eligible to apply to seek [professional development](https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20professional%20development%20funds%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies).
+- I/O members are also eligible to apply to seek [professional development]([https://olucdenver.sharepoint.com/sites/CCPM-Team/Shared%20Documents/Forms/AllItems.aspx?FolderCTID=0x0120002C42F4ECCE9FCD46888275FB90623AAF&id=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies%2FCCPM%20professional%20development%20funds%20policy%2Epdf&parent=%2Fsites%2FCCPM%2DTeam%2FShared%20Documents%2FGeneral%2FCCPM%20Policies)](https://olucdenver.sharepoint.com/:b:/r/sites/CCPM-Team/Shared%20Documents/General/CCPM%20Policies/CCPM%20staff%20professional%20development%20funds%20policy%2009.2024.pdf?csf=1&web=1&e=IQjZgD]).
 
 # Communication
 
@@ -49,7 +49,7 @@ It would be most appropriate for the conversation to take place on GitHub issues
 ## Meetings
 
 **Lab Meetings:**
-- Lab meetings are scheduled for one hour, 10:00 AM on Tuesdays. All members of I/O are expected to attend if possible. Meetings are expected to be a supportive environment for learning, constructive criticism, help, and scientific discussions. 
+- Lab meetings are scheduled for one hour, 1:00 PM on Mondays. All members of I/O are expected to attend if possible. Meetings are expected to be a supportive environment for learning, constructive criticism, help, and scientific discussions. 
 
 **Additional Meetings:**
 1. A weekly meeting at 1:00 PM MT Tuesday afternoon with the Biobank team to present I/O updates and receive feedback to improve I/O pipelines.
@@ -111,13 +111,13 @@ Note: Staff and Faculty should already have a Canvas Account created but if you 
 
 **Required CU trainings**
 
-The following [Skillsoft](https://universityofcolorado.skillport.com/skillportfe/main.action#whatshappening) trainings must be completed within first 30 days of hire:
+The following [Precipio](https://www.cuanschutz.edu/offices/human-resources/learning-development/required-training) trainings must be completed within first 30 days of hire:
 
-1) [Americans with Disabilities Act](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00057_0001)
-2) [Discrimination and Sexual Misconduct](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00067_0001)
-3) [Fiscal Code of Ethics](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_f00001_0001)
-4) [HIPAA Regulations](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_a00020_0001)
-5) [Information Security and Privacy Awareness](https://universityofcolorado.skillport.com/skillportfe/main.action?path=summary/CUSTOMER_DEFINED/_scorm12_cu_u00063_0001)
+1) [Americans with Disabilities Act](https://universityofcolorado.percipio.com/linked-contents/760b6ed2-dae6-4fdf-8b47-d6c631312c74/landing?sharelink=Nx6zq-w55)
+2) [Discrimination and Sexual Misconduct](https://universityofcolorado.percipio.com/linked-contents/2fc85509-9002-45a2-81d3-3d3b3491ebe1/landing?sharelink=JCp6EcW76)
+3) [Fiscal Code of Ethics](https://universityofcolorado.percipio.com/linked-contents/34255cab-e9d8-4689-89cb-0555cf98dae5/landing?sharelink=VR_a7qRJlj)
+4) [HIPAA Regulations](https://universityofcolorado.percipio.com/linked-contents/6dbc91bb-3f1e-499a-942d-045530d33ae1/landing?sharelink=5ImhuR8RU)
+5) [Information Security and Privacy Awareness](https://universityofcolorado.percipio.com/linked-contents/a5934ada-2c6e-4f22-a336-177c41a72ad5/landing?sharelink=x8rr2Jant)
 
 **Required HIPAA trainings:**
 CCPM clinical pipelines will require access to private health information (PHI). I/O members will be expected to do the following prior to getting access to CCPM data.
@@ -133,7 +133,7 @@ CCPM clinical pipelines will require access to private health information (PHI).
 3. Upload a PDF copy of CV to [eRA(InfoEd)](https://era.cu.edu/login.asp) (under ‘My Profile’ (upper left), click ‘Biosketch’ under the Biography side tab, and then click ‘Add’ in the upper right). 
 
 **Access to Eureka:**
-[Eureka](https://www.healthdatacompass.org/cloud-analytics-infrastructure) is an analytic infrastructure service provided by Health Data Compass to quickly provision virtual machines in the Google Cloud for Compass users that are HIPAA compliant and scalable with many analytic capabilities.
+[Eureka](https://research.cuanschutz.edu/healthdatacompass/home/eureka-cloud-analytics) is an analytic infrastructure service provided by Health Data Compass to quickly provision virtual machines in the Google Cloud for Compass users that are HIPAA compliant and scalable with many analytic capabilities.
 I/O uses Eureka to develop, test, deploy, and maintain clinical pipelines.
 
 - Once HIPAA trainings are complete, the I/O director will add you to the CCPM-IO protocol, and then request access to the following Eureka servers
@@ -143,14 +143,14 @@ I/O uses Eureka to develop, test, deploy, and maintain clinical pipelines.
 + [Eureka Google Cloud clinical pipeline web applications](https://hdcekaprodio2-app-1.hdcuser.org/)
 
 - You will then be asked to complete [Compass staff training](https://olucdenver.sharepoint.com/compass/team/SitePages/Compass-Staff-Training-Dashboard.aspx?CT=1699638580421&OR=OWA-NT&CID=d9447a09-20ff-7b7e-eb2e-ec606c132b00).
-- Health data compass provides instructions to get started for [Eureka](https://www.healthdatacompass.org/eureka-cloud-analytics/eureka-user-guide)
+- Health data compass provides instructions to get started for [Eureka](https://olucdenver.sharepoint.com/:w:/g/compass/leafbeta/ES-UlTv6AJZBpWOYS_oStG4BOPsqC5FMobwg-KDu0FpmUA?e=Msdkhs)
 
 **Access to Alpine:**
 [Alpine](https://curc.readthedocs.io/en/latest/clusters/alpine/index.html) is a high performance computing (HPC) cluster maintained by University of Colorado Boulder which CCPM I/O uses in partnership with the CCPM-Research team to manage de-identified CCPM data for research pipelines.
 
 To get access to Alpine and the [petalibrary](https://curc.readthedocs.io/en/latest/storage/petalibrary/index.html), do the following:
 
-1) Apply for [access](https://curc.readthedocs.io/en/latest/access/amc-access.html) to Alpine.
+1) Apply for [access](https://ucdenverdata.formstack.com/forms/alpine_eua_and_intake) to Alpine.
 2) Contact [Jonathan Shortt](jonathan.shortt@cuanschutz.edu) to get access to CCPM instance of petalibrary.
 
 **Access to Biobank server:**
@@ -163,6 +163,24 @@ The [CCPM-Biobank server](pcifs334.ucdenver.pvt/biobank$) contains data generate
 
 1) Create a DNANexus [account](https://platform.dnanexus.com/register).
 2) Once you are added to CCPM-IO protocol, the director will add you to associated CCPM projects in DNANexus.
+
+**Access to Google buckets outside Eureka**
+I/O also makes use of Google buckets outside of Eureka for projects with de-ID data to aid in continuous integration and transfer of large data to/from Alpine. 
+
+- Once you are added to CCPM-IO protocol, the director will provide access for the following Google projects:
+
+1) gs://ccpm_tis/ (transfers between Eureka and this bucket will use your Eureka account. Transfers between Alpine and this bucket require a non-Eureka account.
+2) ccpm.io.service (facilitates unit testing between github and Google cloud replicating clinical production environments).
+
+**Access to Colorado Biobank Portal**
+I/O maintains the Colorado Biobank Portal for investigators to query GWAS results for ~1600 phenotypes (phecodes).
+
+- Apply for [access](https://ucdenverdata.formstack.com/forms/cbe_user_signup_ccpm).
+
+**Access to service email account**
+I/O also uses a service account to collect emails from github (issues, pull requests, etc.) as well as inquiries from the [Colorado Biobank Portal](http://hdc-sandbox-bioengine.uw.r.appspot.com/)
+
+- Once you are added to CCPM-IO protocol, the director will provide access to ccpm.io@cuanschutz.edu.
 
 
 
