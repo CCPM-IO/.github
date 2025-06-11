@@ -49,12 +49,11 @@ It would be most appropriate for the conversation to take place on GitHub issues
 ## Meetings
 
 **Lab Meetings:**
-- Lab meetings are scheduled for one hour, 1:00 PM on Mondays. All members of I/O are expected to attend if possible. Meetings are expected to be a supportive environment for learning, constructive criticism, help, and scientific discussions. 
+- Lab meetings are scheduled for two hours, 12:00 PM on Wednesdays. All members of I/O are expected to attend if possible. Meetings are expected to be a supportive environment for learning, constructive criticism, help, and scientific discussions. 
 
 **Additional Meetings:**
 1. A weekly meeting at 1:00 PM MT Tuesday afternoon with the Biobank team to present I/O updates and receive feedback to improve I/O pipelines.
-2. A weekly meeting at 1:00 PM MT Wednesday afternoon with select members of research team to discuss research freeze pipelines.
-3. A monthly meeting at 10:00 AM MT first Friday of every month with CCPM research team to discuss updates and collaboration opportunities.
+2. A weekly meeting at 9:00 AM MT Monday morning with DNANexus, and EPIC teams to align on goals for return of results pipelines with DNANexus. 
 
 **Ad-Hoc Meetings:** Any member can add an ad hoc meeting as needed.
 - Ad hoc meetings are meant to help I/O members get advice and help on projects, prepare for presentations, etc.
@@ -181,10 +180,3 @@ I/O maintains the Colorado Biobank Portal for investigators to query GWAS result
 I/O also uses a service account to collect emails from github (issues, pull requests, etc.) as well as inquiries from the [Colorado Biobank Portal](http://hdc-sandbox-bioengine.uw.r.appspot.com/)
 
 - Once you are added to CCPM-IO protocol, the director will provide access to ccpm.io@cuanschutz.edu.
-
-
-
-
-
-
-
