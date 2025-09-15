@@ -223,8 +223,8 @@ In the CCPM-IO organization, we follow a [GitHub flow](https://docs.github.com/e
 
 ## PR template
 
-TODO: Link to PR template
-
+There is a PR template in the .github repository that will be propagated to every repository under the CCPM organization.
+ 
 ## PR guidelines
 
 In general, one PR should close one issue. Each issue should contain a single task, the smallest unit of development that can be tested. A PR should be made to address each and every issue that is created. This generally means each PR will change a relatively small amount of code and will not be overly cumbersome to review. This may not always be the case for new features, and a reviewer always reserves the right to request a PR be split into multiple PRs.
