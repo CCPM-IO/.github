@@ -27,4 +27,4 @@
 - [ ] My change requires a change to the documentation.
 - [ ] I have updated the documentation accordingly.
 
-This PR closes issue #<issue-number>
+This PR closes #<issue-number>
