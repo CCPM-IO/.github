@@ -1,7 +1,7 @@
 ---
 name: Task request
 about: Provide context for a task that needs to be completed.
-title: 'Task: <Description>'
+title: ''
 labels: ''
 assignees: ''
 
