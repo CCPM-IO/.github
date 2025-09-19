@@ -1,90 +1,121 @@
 
 [CCPM IO SOPs](../../CCPM%20IO%20SOPs.md) > [Github SOPs](../Github%20SOPs.md)
 
-# Github Repo Maintenance SOP
+# GitHub Repository Maintenance SOP
 
 - 1 [Purpose](#purpose)
-- 2 [Roles and responsibilities](#roles-and-responsibilities)
-  - 2.1 [Repository creation](#repository-creation)
-    - 2.1.1 [Naming](#naming)
-    - 2.1.2 [Permissions](#permissions)
-    - 2.1.3 [Basic requirements](#basic-requirements)
-    - 2.1.4 [High level structure](#high-level-structure)
-    - 2.1.5 [Rule set](#rule-set)
-  - 2.2 [Repository deprecation](#repository-deprecation)
-  - 2.3 [Management](#management)
-    - 2.3.1 [General guidelines](#general-guidelines)
-    - 2.3.2 [Releases](#releases)
-  - 2.4 [Structure](#structure)
-    - 2.4.1 [Style guides](#style-guides)
-- 3 [Issues](#issues)
-  - 3.1 [Issue templates](#issue-templates)
-  - 3.2 [Issue guidelines](#issue-guidelines)
-    - 3.2.1 [Title](#title)
-    - 3.2.2 [Description](#description)
-    - 3.2.3 [Assignees](#assignees)
-    - 3.2.4 [Labels/Type](#labels-type)
-    - 3.2.5 [Projects](#projects)
-    - 3.2.6 [Milestone](#milestone)
-    - 3.2.7 [Relationships](#relationships)
-- 4 [PRs](#prs)
-  - 4.1 [PR template](#pr-template)
-  - 4.2 [PR guidelines](#pr-guidelines)
-    - 4.2.1 [Merge strategy](#merge-strategy)
-    - 4.2.2 [Title](#title)
-    - 4.2.3 [Description](#description)
-    - 4.2.4 [Reviewers](#reviewers)
-    - 4.2.5 [Assignees](#assignees)
-    - 4.2.6 [Labels](#labels)
-    - 4.2.7 [Projects](#projects)
-    - 4.2.8 [Milestones](#milestones)
-    - 4.2.9 [Development](#development)
-- 5 [Contribution structure](#contribution-structure)
-  - 5.1 [Branching vs. Forking](#branching-vs-forking)
-    - 5.1.1 [Branching](#branching)
-    - 5.1.2 [Forking](#forking)
-  - 5.2 [Branch deletion](#branch-deletion)
-  - 5.3 [Branch naming](#branch-naming)
+- 2 [Code of conduct](#code-of-conduct)
+- 3 [Security](#security)
+- 4 [Accounts](#accounts)
+  - 4.1 [Organizational roles](#organizational-roles)
+- 5 [Roles and responsibilities](#roles-and-responsibilities)
+  - 5.1 [Repository creation](#repository-creation)
+    - 5.1.1 [Naming](#naming)
+    - 5.1.2 [Permissions](#permissions)
+    - 5.1.3 [Basic requirements](#basic-requirements)
+    - 5.1.4 [High level structure](#high-level-structure)
+    - 5.1.5 [Rule set](#rule-set)
+  - 5.2 [Repository deprecation](#repository-deprecation)
+  - 5.3 [Management](#management)
+    - 5.3.1 [General guidelines](#general-guidelines)
+    - 5.3.2 [Releases](#releases)
+- 6 [Structure](#structure)
+  - 6.1 [Style guides](#style-guides)
+    - 6.1.1 [Python](#python)
+    - 6.1.2 [R](#r)
+    - 6.1.3 [Shell/bash](#shell-bash)
+    - 6.1.4 [Front-end web dev: HTML/Javascript/CSS](#front-end-web-dev-html-javascript-css)
+    - 6.1.5 [Nextflow](#nextflow)
+    - 6.1.6 [Sbatch (extension of shell/bash guidelines)](#sbatch-extension-of-shell-bash-guidelines)
+- 7 [Issues](#issues)
+  - 7.1 [Issue templates](#issue-templates)
+  - 7.2 [Issue guidelines](#issue-guidelines)
+    - 7.2.1 [Title](#title)
+    - 7.2.2 [Description](#description)
+    - 7.2.3 [Assignees](#assignees)
+    - 7.2.4 [Labels/Type](#labels-type)
+    - 7.2.5 [Projects](#projects)
+    - 7.2.6 [Milestone](#milestone)
+    - 7.2.7 [Relationships](#relationships)
+- 8 [PRs](#prs)
+  - 8.1 [PR template](#pr-template)
+  - 8.2 [PR guidelines](#pr-guidelines)
+    - 8.2.1 [Merge strategy](#merge-strategy)
+    - 8.2.2 [Title](#title)
+    - 8.2.3 [Description](#description)
+    - 8.2.4 [Reviewers](#reviewers)
+    - 8.2.5 [Assignees](#assignees)
+    - 8.2.6 [Labels](#labels)
+    - 8.2.7 [Projects](#projects)
+    - 8.2.8 [Milestones](#milestones)
+    - 8.2.9 [Development](#development)
+- 9 [Contribution](#contribution)
+  - 9.1 [Signatures](#signatures)
+  - 9.2 [Languages](#languages)
+  - 9.3 [Linting](#linting)
+  - 9.4 [Pre-commit](#pre-commit)
+  - 9.5 [Citing external code](#citing-external-code)
+  - 9.6 [Branching vs. Forking](#branching-vs-forking)
+    - 9.6.1 [Branching](#branching)
+    - 9.6.2 [Forking](#forking)
+  - 9.7 [Branch deletion](#branch-deletion)
+  - 9.8 [Branch naming](#branch-naming)
 
 # Purpose
 
-This document serves as the standard operating procedure (SOP) for any and all aspects of maintaining GitHub repositories within the CCPM-IO organization GitHub. Any question that you feel is not addressed here should be opened as an issue on the [CCPM-IO .github](https://github.com/CCPM-IO/.github/issues) repo following this template (link to .github issue creation template), assigned to the “CCPM SOP Development” project, and assigned to a team member (who is not the director).
+This document serves as the standard operating procedure (SOP) for any and all aspects of maintaining GitHub repositories within the CCPM I/O organization GitHub. Any question that you feel is not addressed here should be opened as an issue on the [CCPM I/O .github](https://github.com/CCPM-IO/.github/issues) repo following this template (link to .github issue creation template), assigned to the “CCPM SOP Development” project, and assigned to a team member (who is not the director).
+
+# Code of conduct
+
+The CCPM I/O department follows a code of conduct that can be found [here](CODE\_OF\_CONDUCT.md).
+
+# Security
+
+Consult the [security document](SECURITY.md) for details regarding CCPM I/O security expectations.
+
+# Accounts
+
+Each member of the CCPM I/O is required to create an account so that all contributions will be attributable to each member, director included.
+
+## Organizational roles
+
+There is a single, CCPM I/O organization account, managed by the director, that is used for the overall CCPM I/O GitHub organization management. This account has the highest level permissions and is primarily used to assign permissions to teams and members in the CCPM I/O GitHub organization. This account also has full admin control over creating, deleting, and maintaining all repositories under the CCPM I/O organization. The CCPM I/O account will be primarily managed by the director, but the management responsibility may be offloaded to any other CCPM I/O team member at the director’s discretion (or absence). The CCPM I/O organization account is distinct from the director’s personal account, that will be used for all repository contributions (issue creation, PRs approvals, etc.)
 
 # Roles and responsibilities
 
-|  **Task**                                                        |  **Responsible**                        |  **Accountable**                |  **Consulted**                          |  **Informed**    |  **Comments**                                                                                                                                                                                                                                                                      |
-|:-----------------------------------------------------------------|:----------------------------------------|:--------------------------------|:----------------------------------------|:-----------------|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Repository creation                                              | Primary repository maintainer           | Secondary repository maintainer | IO team                                 |                  | Internal members may add repos under the organization header after discussion with IO team                                                                                                                                                                                         |
-| Team creation and permission management for CCPM-IO organization | Director                                |                                 |                                         | IO team          | The director is responsible for maintaining teams on GitHub and assigning roles and permissions to all individuals that have access to the CCPM-IO organization                                                                                                                    |
-| Repository deprecation                                           | Director                                |                                 | IO team                                 |                  | Repositories will be selected for deprecation/archival on a yearly basis. Original maintainer will be informed unless they are no longer with the team.                                                                                                                            |
-| Creating PRs                                                     | Issue assignee                          |                                 | Primary/Secondary repository maintainer | Director         | PRs should be created by the individual who addressed the issue that the PR is related to. IO peers should be set as reviewers, director informed                                                                                                                                  |
-| Milestone creation                                               | Primary repository maintainer           | Secondary repository maintainer | Director                                | IO team          | The project lead is responsible for creating and maintaining milestones on their respective repositories. The director and other contributing members should be informed about what the milestone is intended to track and how it is to be used.                                   |
-| Issue creation                                                   | IO team member                          |                                 |                                         | IO team          |                                                                                                                                                                                                                                                                                    |
-| Project creation                                                 | IO team member                          | Director                        |                                         |                  |                                                                                                                                                                                                                                                                                    |
-| Epic creation                                                    | Primary/secondary repository maintainer |                                 | Director                                | IO team          |                                                                                                                                                                                                                                                                                    |
-| Creating releases                                                | Primary repository maintainer           | Secondary repository maintainer | Director                                | IO team          | The repository maintainer is responsible for releases in each respective repository. Secondary contributors to that repository will be accountable for releases. Director should be consulted prior to release, and the entire IO team (and maybe external stakeholders) informed. |
+|  **Task**                                                         |  **Responsible**                        |  **Accountable**                |  **Consulted**                          |  **Informed**    |  **Comments**                                                                                                                                                                                                                                                                       |
+|:------------------------------------------------------------------|:----------------------------------------|:--------------------------------|:----------------------------------------|:-----------------|:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Repository creation                                               | Primary repository maintainer           | Secondary repository maintainer | I/O team                                |                  | Internal members may add repos under the organization header after discussion with I/O team                                                                                                                                                                                         |
+| Team creation and permission management for CCPM I/O organization | Director                                |                                 |                                         | I/O team         | The director is responsible for maintaining teams on GitHub and assigning roles and permissions to all individuals that have access to the CCPM I/O organization                                                                                                                    |
+| Repository deprecation                                            | Director                                |                                 | I/O team                                |                  | Repositories will be selected for deprecation/archival on a yearly basis. Original maintainer will be informed unless they are no longer with the team.                                                                                                                             |
+| Creating PRs                                                      | Issue assignee                          |                                 | Primary/Secondary repository maintainer | Director         | PRs should be created by the individual who addressed the issue that the PR is related to. I/O peers should be set as reviewers, director informed                                                                                                                                  |
+| Milestone creation                                                | Primary repository maintainer           | Secondary repository maintainer | Director                                | I/O team         | The project lead is responsible for creating and maintaining milestones on their respective repositories. The director and other contributing members should be informed about what the milestone is intended to track and how it is to be used.                                    |
+| Issue creation                                                    | I/O team member                         |                                 |                                         | I/O team         | Anyone in I/O may create issues and anyone following the repository will be informed                                                                                                                                                                                                |
+| Project creation                                                  | I/O team member                         | Director                        |                                         |                  | Anyone in I/O may create a project, the director holds final judgment about keeping projects in the organization                                                                                                                                                                    |
+| Epic creation                                                     | Primary/secondary repository maintainer |                                 | Director                                | I/O team         | Epic should be created by the primary and secondary maintainers of a repository. Director should be consulted to ensure epics align with project goals.                                                                                                                             |
+| Creating releases                                                 | Primary repository maintainer           | Secondary repository maintainer | Director                                | I/O team         | The repository maintainer is responsible for releases in each respective repository. Secondary contributors to that repository will be accountable for releases. Director should be consulted prior to release, and the entire I/O team (and maybe external stakeholders) informed. |
 
 ## Repository creation
 
-Generally anyone who is on the IO team are permitted to create repositories under the CCPM-IO organization. However, it is required to have a discussion with the IO team and be granted approval prior to creating a repository under the CCPM-IO organization GitHub. It is generally recommended to create a repository under your personal account first, then discuss with the IO regarding moving it to the CCPM-IO GitHub. The CCPM-IO organization will be the ultimate owner and admin for all repositories contributed to by the IO team as a whole.
+Generally anyone who is on the I/O team are permitted to create repositories under the CCPM I/O organization. However, it is required to have a discussion with the I/O team and be granted approval prior to creating a repository under the CCPM I/O organization GitHub. It is generally recommended to create a repository under your personal account first, then discuss with the I/O regarding moving it to the CCPM I/O GitHub. The CCPM I/O organization will be the ultimate owner and admin for all repositories contributed to by the I/O team as a whole.
 
 ### Naming
 
-Repositories that will belong in the CCPM-IO organization should follow these naming conventions:
+Repositories that will belong in the CCPM I/O organization should follow these naming conventions:
 
-- All lowercase letters, save for acronyms (ie. CART, PGx, etc.)
+- All lowercase letters, save for acronyms (proper nouns, common abbreviations, etc.)
 - Names of companies or organizations should follow their naming conventions (eg. DNAnexus)
 - No spaces are allowed in names
 - If a name should contain multiple words, they should be delimited with hyphens (underscores and other delimiters are not allowed)
-- Names should be kept to 20 characters or less, barring special circumstances to be approved on an ad-hoc basis by the IO team
+- Names should be kept to 20 characters or less, barring special circumstances to be approved on an ad-hoc basis by the I/O team
 
 ### Permissions
 
-Permissions will be managed by the IO director at the level of the organization using the tools created by GitHub for team management. Generally, anyone working on the IO team may be granted permissions to any repository under the CCPM-IO organization by anyone with permissions to do so.
+Permissions will be managed by the I/O director at the level of the organization using the tools created by GitHub for team management. Generally, anyone working on the I/O team may be granted permissions to any repository under the CCPM I/O organization by anyone with permissions to do so.
 
-For individuals outside of the CCPM-IO team (eg. UCHealth, CU researchers, etc.), the director of IO should be consulted prior to granting anyone permissions to repositories maintained by the CCPM-IO team. The director of IO holds the final discretionary power to permit or deny permissions to any repository maintained by the CCPM-IO team. Requests for granting permissions to a repository may be made through email or slack. The director is responsible for creating teams on GitHub and assigning roles and permissions to all individuals that have access to the CCPM-IO organization.
+For individuals outside of the CCPM I/O team (eg. UCHealth, CU researchers, etc.), the director of I/O should be consulted prior to granting anyone permissions to repositories maintained by the CCPM I/O team. The director of I/O holds the final discretionary power to permit or deny permissions to any repository maintained by the CCPM I/O team. Requests for granting permissions to a repository may be made through email or slack. The director is responsible for creating teams on GitHub and assigning roles and permissions to all individuals that have access to the CCPM I/O organization.
 
-The director is also responsible for revoking permissions to repositories or the CCPM-IO organization as a whole. By default, permission should be treated as a “need-to-know” basis. Permissions will be only be granted on an ad-hoc basis. For example, a contributor who solely needs to read a piece of documentation regarding a codebase may be sent a document, but not granted permissions to the repo as a whole. Using GitHub’s built in permission management tools, the director will maintain organization permissions as a whole.
+The director is also responsible for revoking permissions to repositories or the CCPM I/O organization as a whole. By default, permission should be treated as a “need-to-know” basis. Permissions will be only be granted on an ad-hoc basis. For example, a contributor who solely needs to read a piece of documentation regarding a codebase may be sent a document, but not granted permissions to the repo as a whole. Using GitHub’s built in permission management tools, the director will maintain organization permissions as a whole.
 
 Revocation causes:
 
@@ -94,7 +125,7 @@ Revocation causes:
 
 ### Basic requirements
 
-Repositories will follow a template outlined in the: [ccpm-template-repo](https://github.com/CCPM-IO/ccpm-template-repo). It is strongly advised to use this repository as a template for creating any repository that will be included under the CCPM-IO organization. Otherwise, all components will need to be created from scratch. Language specific frameworks will govern project structure on a more granular level (see [Github Repo Maintenance SOP](Github%20Repo%20Maintenance%20SOP.md)). However, each repository in the CCPM-IO organization will adhere to the following high-level template:
+Repositories will follow a template outlined in the: [ccpm-template-repo](https://github.com/CCPM-IO/ccpm-template-repo). It is strongly advised to use this repository as a template for creating any repository that will be included under the CCPM I/O organization. Otherwise, all components will need to be created from scratch. Language specific frameworks will govern project structure on a more granular level (see [GitHub Repository Maintenance SOP](GitHub%20Repository%20Maintenance%20SOP.md)). However, each repository in the CCPM I/O organization will adhere to the following high-level template:
 
 ### High level structure
 
@@ -125,13 +156,13 @@ Repositories will follow a template outlined in the: [ccpm-template-repo](https:
 
 ## Repository deprecation
 
-The CCPM-IO team as a whole will evaluate repositories on a yearly cadence, generally at the end of the calendar year. The CCPM-IO team will evaluate all repositories under the organization and archive those that are no longer being used. Rather than renaming and keeping repositories in an active state, they will be deprecated and archived so that information is retained, but does not clutter the organization repository list.
+The CCPM I/O team as a whole will evaluate repositories on a yearly cadence, generally at the end of the calendar year. The CCPM I/O team will evaluate all repositories under the organization and archive those that are no longer being used. Rather than renaming and keeping repositories in an active state, they will be deprecated and archived so that information is retained, but does not clutter the organization repository list.
 
 ## Management
 
 ### General guidelines
 
-- All repositories in the CCPM-IO organization will have branch protection rules for main, preventing direct merges or force pushes
+- All repositories in the CCPM I/O organization will have branch protection rules for main, preventing direct merges or force pushes
 - All pull requests (PRs) require at least one approval prior to merge
 - Branch restrictions may be set in place on an ad-hoc basis for repositories with external stakeholders
 - Use relative paths for links to documents inside repository, refrain from using absolute paths
@@ -141,7 +172,7 @@ The CCPM-IO team as a whole will evaluate repositories on a yearly cadence, gene
 
 ### Releases
 
-The CCPM-IO uses [Semantic Versioning (SemVer)](https://semver.org/), [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) and [Release drafter](https://github.com/release-drafter/release-drafter) for versioning and release management. Repository releases, including new features, bug fixes, and other updates, are managed through Pull Requests (PRs) to the main branch. Each release involves determining the type of release (major, minor, or patch), creating a PR, testing the release, and deploying the code to the production environment. A new GitHub release will be tagged with the appropriate version number and will include all changes in the main branch up to the commits in the PR. This information is more thoroughly described in the CCPM-IO [RELEASE.md](https://github.com/CCPM-IO/cart/blob/main/resources/RELEASE.md).
+The CCPM I/O uses [Semantic Versioning (SemVer)](https://semver.org/), [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) and [Release drafter](https://github.com/release-drafter/release-drafter) for versioning and release management. Repository releases, including new features, bug fixes, and other updates, are managed through Pull Requests (PRs) to the main branch. Each release involves determining the type of release (major, minor, or patch), creating a PR, testing the release, and deploying the code to the production environment. A new GitHub release will be tagged with the appropriate version number and will include all changes in the main branch up to the commits in the PR. This information is more thoroughly described in the CCPM I/O [RELEASE.md](https://github.com/CCPM-IO/cart/blob/main/resources/RELEASE.md).
 
 High-Level Release Process:
 
@@ -150,26 +181,33 @@ High-Level Release Process:
 3. Merge the PR to the main branch.
 4. Deploy the updated code to the production environment.
 
-## Structure
+# Structure
 
 The top level structure and overall architecture of each repository will follow the conventions outlined in the style guide for each respective project type. These will generally follow language or framework specific style guides. (TODO: Create list with links to each style guide here)
 
-### Style guides
+## Style guides
 
-- Python
-- R
-- Shell/bash
-- Front-end web dev: HTML/Javascript/CSS
-- Nextflow
-- Sbatch (extension of shell/bash guidelines)
+### Python
+
+Python code follows [PEP 8](https://www.python.org/dev/peps/pep-0008). R code follows [Google's R Style Guide](https://google.github.io/styleguide/Rguide.xml). We provide instructions on how to automate the linting process [here](https://github.com/CCPM-IO/.github/blob/main/linter_install_tutorial.md).
+
+### R
+
+### Shell/bash
+
+### Front-end web dev: HTML/Javascript/CSS
+
+### Nextflow
+
+### Sbatch (extension of shell/bash guidelines)
 
 # Issues
 
-Every repository in the CCPM-IO organization will use issues to track progress on projects. Every piece of development that is done for a project should be tracked through one or more issue(s). It is standard practice and always recommended to open an issue prior to making any changes to code. An issue may be opened retroactively after a branch has been created or code has been altered, but it is never acceptable to create a PR prior to creating the related issue. All issues will be addressed by PRs and therefore need to be opened prior to creating a merge/pull request.
+Every repository in the CCPM I/O organization will use issues to track progress on projects. Every piece of development that is done for a project should be tracked through one or more issue(s). It is standard practice and always recommended to open an issue prior to making any changes to code. An issue may be opened retroactively after a branch has been created or code has been altered, but it is never acceptable to create a PR prior to creating the related issue. All issues will be addressed by PRs and therefore need to be opened prior to creating a merge/pull request.
 
 ## Issue templates
 
-In general, issues will fall into one of three categories: bug, task, or feature. The CCPM-IO follows templates for each of these issue types:
+In general, issues will fall into one of three categories: bug, task, or feature. The CCPM I/O follows templates for each of these issue types:
 
 - Bug
 - Task
@@ -207,7 +245,7 @@ Labels and type should be assigned upon issue creation. The type is used to clar
 
 ### Projects
 
-All issues should be assigned to a project, orphan issues are not allowed. This is because the CCPM-IO team routinely tracks issues that are tied to multiple repositories. If an issue is created and does not have a relevant project to assign it to, it should be brought up during the internal IO sync, so that one may be created.
+All issues should be assigned to a project, orphan issues are not allowed. This is because the CCPM I/O team routinely tracks issues that are tied to multiple repositories. If an issue is created and does not have a relevant project to assign it to, it should be brought up during the internal I/O sync, so that one may be created.
 
 ### Milestone
 
@@ -215,16 +253,16 @@ Milestones will be used to track large features that contain multiple sub-tasks.
 
 ### Relationships
 
-Issue relationships are not required to be assigned upon issue creation. However, they may be assigned some time after issue creation. Issues may be assigned to parent issues if they are related to the resolution of it. Generally the CCPM-IO team uses parent issues to track the progress of multiple tasks. Each issue should reflect the resolution of a single task. A task is the smallest unit of work that can be tested individually.
+Issue relationships are not required to be assigned upon issue creation. However, they may be assigned some time after issue creation. Issues may be assigned to parent issues if they are related to the resolution of it. Generally the CCPM I/O team uses parent issues to track the progress of multiple tasks. Each issue should reflect the resolution of a single task. A task is the smallest unit of work that can be tested individually.
 
 # PRs
 
-In the CCPM-IO organization, we follow a [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) for branching and pull request (PR) creation. CCPM-IO use a strategy of merging all PRs to main, then creating releases and tagged versions for production. Pull requests (PRs) will be used prior to merging any code to main branch of a repository.
+In the CCPM I/O organization, we follow a [GitHub flow](https://docs.github.com/en/get-started/using-github/github-flow) for branching and pull request (PR) creation. CCPM I/O use a strategy of merging all PRs to main, then creating releases and tagged versions for production. Pull requests (PRs) will be used prior to merging any code to main branch of a repository.
 
 ## PR template
 
 There is a PR template in the .github repository that will be propagated to every repository under the CCPM organization.
- 
+
 ## PR guidelines
 
 In general, one PR should close one issue. Each issue should contain a single task, the smallest unit of development that can be tested. A PR should be made to address each and every issue that is created. This generally means each PR will change a relatively small amount of code and will not be overly cumbersome to review. This may not always be the case for new features, and a reviewer always reserves the right to request a PR be split into multiple PRs.
@@ -233,7 +271,7 @@ A single PR may be used to resolve multiple issues if it is not possible to test
 
 ### Merge strategy
 
-The CCPM-IO organization follows a squash merge strategy for merging code. More regarding the standard can be found in [GitHub’s documentation](https://graphite.dev/blog/pull-request-merge-strategy).
+The CCPM I/O organization follows a squash merge strategy for merging code. More regarding the standard can be found in [GitHub’s documentation](https://graphite.dev/blog/pull-request-merge-strategy).
 
 Commit messages for individual commits should follow [conventional commit guidelines](https://www.conventionalcommits.org/en/v1.0.0/). Eg. `<type>[optional scope]: <description>`. This is a helpful VSCode [extention](https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits).
 
@@ -241,11 +279,11 @@ After approval has been given by all requested reviewers, the PR creator or repo
 
 ### Title
 
-PR titles will follow the conventional commit message syntax, `<type>[optional scope]: <description>`. The CCPM-IO organization uses conventional commit messages and squash-merge for creating PRs, so the PR titles should follow this format. More about conventional commits can be found later in this section.
+PR titles will follow the conventional commit message syntax, `<type>[optional scope]: <description>`. The CCPM I/O organization uses conventional commit messages and squash-merge for creating PRs, so the PR titles should follow this format. More about conventional commits can be found later in this section.
 
 ### Description
 
-Descriptions should follow the format outlined in the [Github Repo Maintenance SOP](Github%20Repo%20Maintenance%20SOP.md) in this section. In general, descriptions should be a thorough and detailed explanation of what changes were made, and why they’re relevant. They should always include a link to the issue it is addressing and how the PR resolves it. [GitHub convention](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) should be followed to ensure PRs close issues.
+Descriptions should follow the format outlined in the [GitHub Repository Maintenance SOP](GitHub%20Repository%20Maintenance%20SOP.md) in this section. In general, descriptions should be a thorough and detailed explanation of what changes were made, and why they’re relevant. They should always include a link to the issue it is addressing and how the PR resolves it. [GitHub convention](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/linking-a-pull-request-to-an-issue) should be followed to ensure PRs close issues.
 
 ### Reviewers
 
@@ -261,7 +299,7 @@ This should always be the creator.
 
 ### Labels
 
-This will follow the same set of labels described in the [Github Repo Maintenance SOP](Github%20Repo%20Maintenance%20SOP.md) of this document. PR labels should match the issue they address.
+This will follow the same set of labels described in the [GitHub Repository Maintenance SOP](GitHub%20Repository%20Maintenance%20SOP.md) of this document. PR labels should match the issue they address.
 
 ### Projects
 
@@ -275,19 +313,43 @@ All PRs should be assigned to the milestone that the issue it’s addressing is 
 
 This section should be automatically filled in when linking a related issue in the PR description.
 
-# Contribution structure
+# Contribution
+
+## Signatures
+
+CCPM I/O expect team members to sign their code, which means that source code contributions are attributable to an individual's account on GitHub. To quote from The Pragmatic Programmer:
+
+> [Craftspeople] of an earlier age were proud to sign their work. You should be, too… People should see your name on a piece of code and expect it to be solid, well written, tested, and documented.
+
+While some code will be proof-of-concept code, it should be of a form that inspires confidence.
+
+## Languages
+
+The CCPM I/O team most often write code for our analyses in Python or R. This allows everyone in the organization to know two languages and understand analytical code.
+
+## Linting
+
+A [linter](https://en.wikipedia.org/wiki/Lint_(software)) is a code analysis tool designed to analyze code and flag for programming errors, bugs and stylistic errors. These tools allow one to drastically improve their productivity when writing code for their research projects as stylistic errors and programming errors will automatically be covered through this setup.
+
+## Pre-commit
+
+CCPM I/O recommends the use of pre-commit with our repositories. Using pre-commit allows users to setup a "git hook" which can check for errors prior to committing changes with git. See [pre-commit installation documentation](https://pre-commit.com/#install) and individual repositories for their unique configurations and potential linting expectations.
+
+## Citing external code
+
+Code taken from elsewhere is properly acknowledged and compatible with the license.
 
 ## Branching vs. Forking
 
-For contributing code to a repository, there are two main strategies, cloning the repository and creating branches or forking the repository, creating branches, and creating PRs from the forked repository to the main repository. At the CCPM-IO, we use both conventions depending on the project type. Generally, it is up to the personal preference of the developer which strategy to use, either is okay. However, some work will necessitate using one strategy over the other.
+For contributing code to a repository, there are two main strategies, cloning the repository and creating branches or forking the repository, creating branches, and creating PRs from the forked repository to the main repository. At the CCPM I/O, we use both conventions depending on the project type. Generally, it is up to the personal preference of the developer which strategy to use, either is okay. However, some work will necessitate using one strategy over the other.
 
 ### Branching
 
-Several of the CCPM-IO maintained repositories have GitHub workflows, which use GitHub secrets defined in our CCPM repository. Pull requests from forked repositories are not given access to GitHub secrets. In this instance, branches must be made directly on the main repository.
+Several of the CCPM I/O maintained repositories have GitHub workflows, which use GitHub secrets defined in our CCPM repository. Pull requests from forked repositories are not given access to GitHub secrets. In this instance, branches must be made directly on the main repository.
 
 ### Forking
 
-Forks are necessitated in repositories where the CCPM-IO develops GitHub workflows themselves. Changes could not be made and compared against the main repository since the changes are what dictate the tests (GitHub actions).
+Forks are necessitated in repositories where the CCPM I/O develops GitHub workflows themselves. Changes could not be made and compared against the main repository since the changes are what dictate the tests (GitHub actions).
 
 ## Branch deletion
 
