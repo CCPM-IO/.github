@@ -79,7 +79,7 @@ Each member of the CCPM I/O is required to create an account so that all contrib
 
 ## Organizational roles
 
-There is a single, CCPM I/O organization account, managed by the director, that is used for the overall CCPM I/O GitHub organization management. This account has the highest level permissions and is primarily used to assign permissions to teams and members in the CCPM I/O GitHub organization. This account also has full admin control over creating, deleting, and maintaining all repositories under the CCPM I/O organization. The CCPM I/O account will be primarily managed by the director, but the management responsibility may be offloaded to any other CCPM I/O team member at the director’s discretion (or absence). The CCPM I/O organization account is distinct from the director’s personal account, that will be used for all repository contributions (issue creation, PRs approvals, etc.)
+There is a single, [CCPM I/O organization account](https://github.com/ccpmio), managed by the director, that is used for the overall CCPM I/O GitHub organization management. This account has the highest level permissions and is primarily used to assign permissions to teams and members in the CCPM I/O GitHub organization. This account also has full admin control over creating, deleting, and maintaining all repositories under the CCPM I/O organization. The CCPM I/O account will be primarily managed by the director, but the management responsibility may be offloaded to any other CCPM I/O team member at the director’s discretion (or absence). The CCPM I/O organization account is distinct from the director’s personal account, that will be used for all repository contributions (issue creation, PRs approvals, etc.)
 
 # Roles and responsibilities
 
