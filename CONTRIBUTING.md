@@ -63,7 +63,7 @@
 
 # Purpose
 
-This document serves as the standard operating procedure (SOP) for any and all aspects of maintaining GitHub repositories within the CCPM I/O organization GitHub. Any question that you feel is not addressed here should be opened as an issue on the [CCPM I/O .github](https://github.com/CCPM-IO/.github/issues) repo following this template (link to .github issue creation template), assigned to the “CCPM SOP Development” project, and assigned to a team member (who is not the director).
+This document serves as the standard operating procedure (SOP) for any and all aspects of maintaining GitHub repositories within the CCPM I/O organization GitHub. Any question that you feel is not addressed here should be opened as an issue on the [CCPM I/O .github](https://github.com/CCPM-IO/.github/issues) repo following this template (link to .github issue creation template), assigned to the [“CCPM SOP Development” project](https://github.com/orgs/CCPM-IO/projects/25), and assigned to a team member (who is not the director).
 
 # Code of conduct
 
