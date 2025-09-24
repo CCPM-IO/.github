@@ -104,7 +104,7 @@ Generally anyone who is on the I/O team are permitted to create repositories und
 Repositories that will belong in the CCPM I/O organization should follow these naming conventions:
 
 - All lowercase letters, save for acronyms (proper nouns, common abbreviations, etc.)
-- Names of companies or organizations should follow their naming conventions (eg. DNAnexus)
+- Names of companies or organizations should follow their naming conventions
 - No spaces are allowed in names
 - If a name should contain multiple words, they should be delimited with hyphens (underscores and other delimiters are not allowed)
 - Names should be kept to 20 characters or less, barring special circumstances to be approved on an ad-hoc basis by the I/O team
