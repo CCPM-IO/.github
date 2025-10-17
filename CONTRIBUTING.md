@@ -108,6 +108,27 @@ The CCPM I/O team as a whole will evaluate repositories on a yearly cadence, gen
 - For forks
 
   - Org → personal repo, NEVER personal repo → org
+ 
+### Dependency management
+
+The CCPM I/O uses [Dependabot](https://docs.github.com/en/code-security/dependabot) for automated dependency updates across supported ecosystems.
+
+Default configurations are present in the [template repo](https://github.com/CCPM-IO/ccpm-template-repo/blob/main/.github/dependabot.yml) for the following package ecosystems:
+
+- pip (Poetry/requirements)
+- Conda
+- Docker
+- Terraform
+- GitHub Actions
+
+The defaults can be modified according to the project structure and needs.
+
+> NOTE: Dependabot needs to be enabled for each repo individually. Organization-level dependabot configuration is only available to GitHub Advanced Security and enterprise server customers.
+
+In order to enable Dependabot for a repository, follow [this guide](https://docs.github.com/en/code-security/getting-started/dependabot-quickstart-guide#enabling-dependabot-for-your-repository).
+
+These are the dependabot settings we recommend using:
+<img width="1221" height="1034" alt="image" src="https://github.com/user-attachments/assets/adddd8b0-ea6f-49e1-b2e9-417bbbc6a588" />
 
 ### Releases
 
